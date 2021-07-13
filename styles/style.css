@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    margin-bottom: 28px;
 }
 .container{
     width: 870px;
@@ -65,9 +66,11 @@ grid-template-columns: repeat(2,1fr);
 }
 .blog-title{
     font-size: 20px;
+    margin-bottom: 0px;
 }
 .blog-author{
     color: #9F9F9F;
+    margin-top: 0px;
 }
 .blog-author a{
     color:#562EFF;
@@ -79,11 +82,14 @@ grid-template-columns: repeat(2,1fr);
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
 }
+.latest-course{
+    margin-bottom: 23px;
+}
 .course{
     width:252.42px;
     height:269.79px;
     border-radius: 5px;
-    box-shadow:0 0 5px rgb(186, 190, 190) ;
+    box-shadow:0 0 7px rgb(186, 190, 190) ;
     padding-top: 13px;
 }
 .course .course-banner img{
